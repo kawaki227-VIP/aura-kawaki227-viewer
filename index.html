@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AURA KAWAKI227 | Source Code Viewer</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- MATRIX BACKGROUND -->
+<canvas id="matrix"></canvas>
+
+<!-- LOADING SCREEN -->
+<div id="loader">
+
+<div class="loader-content">
+
+<h1 class="glitch" data-text="AURA KAWAKI227">
+AURA KAWAKI227
+</h1>
+
+<p>INITIALIZING SYSTEM...</p>
+
+<div class="loading-bar">
+<div class="loading-fill"></div>
+</div>
+
+</div>
+
+</div>
+
+<!-- MAIN SITE -->
+<div id="mainSite">
+
+<!-- HERO SECTION -->
+<section class="hero">
+
+<div class="hero-overlay"></div>
+
+<div class="hero-left">
+
+<img src="assets/hero.jpg" class="hero-image">
+
+<div class="aura-circle"></div>
+
+</div>
+
+<div class="hero-right">
+
+<h1 class="title">
+
+<span>AURA</span>
+
+KAWAKI227
+
+</h1>
+
+<p class="subtitle">
+
+ELITE SOURCE CODE VIEWER
+
+</p>
+
+<p class="description">
+
+Hack The System. Control The Code.
+
+Premium Hacker Interface By Kawaki227
+
+</p>
+
+<button id="enterBtn">
+
+<i class="fas fa-terminal"></i>
+
+ENTER SYSTEM
+
+</button>
+
+</div>
+
+</section>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+<div class="logo">
+
+<i class="fas fa-crown"></i>
+
+KAWAKI227
+
+</div>
+
+<ul>
+
+<li>Viewer</li>
+
+<li>Analyzer</li>
+
+<li>History</li>
+
+<li>Tools</li>
+
+<li>About</li>
+
+</ul>
+
+</nav>
+
+<!-- SOURCE VIEWER -->
+<section class="viewer">
+
+<h2>
+
+<i class="fas fa-code"></i>
+
+SOURCE CODE VIEWER
+
+</h2>
+
+<div class="input-box">
+
+<input
+type="text"
+id="urlInput"
+placeholder="https://example.com">
+
+<button id="viewBtn">
+
+VIEW SOURCE
+
+</button>
+
+</div>
+
+<div class="stats">
+
+<div class="card">
+<h3>LINES</h3>
+<span id="lineCount">0</span>
+</div>
+
+<div class="card">
+<h3>SIZE</h3>
+<span id="sizeCount">0 KB</span>
+</div>
+
+<div class="card">
+<h3>STATUS</h3>
+<span id="statusText">READY</span>
+</div>
+
+</div>
+
+<div class="actions">
+
+<button id="copyBtn">
+
+<i class="fas fa-copy"></i>
+
+COPY
+
+</button>
+
+<button id="downloadBtn">
+
+<i class="fas fa-download"></i>
+
+DOWNLOAD
+
+</button>
+
+<button id="clearBtn">
+
+<i class="fas fa-trash"></i>
+
+CLEAR
+
+</button>
+
+</div>
+
+<div class="code-container">
+
+<div class="code-header">
+
+<span>
+SOURCE CODE
+</span>
+
+</div>
+
+<pre id="result">
+SYSTEM READY...
+</pre>
+
+</div>
+
+</section>
+
+<!-- ANALYZER -->
+<section class="analyzer">
+
+<h2>
+
+<i class="fas fa-chart-pie"></i>
+
+HTML ANALYZER
+
+</h2>
+
+<div class="analyzer-grid">
+
+<div class="analyzer-card">
+
+<h3>Images</h3>
+
+<span id="imgCount">0</span>
+
+</div>
+
+<div class="analyzer-card">
+
+<h3>Links</h3>
+
+<span id="linkCount">0</span>
+
+</div>
+
+<div class="analyzer-card">
+
+<h3>Scripts</h3>
+
+<span id="scriptCount">0</span>
+
+</div>
+
+<div class="analyzer-card">
+
+<h3>Styles</h3>
+
+<span id="cssCount">0</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- HISTORY -->
+<section class="history">
+
+<h2>
+
+<i class="fas fa-clock"></i>
+
+HISTORY
+
+</h2>
+
+<ul id="historyList">
+
+<li>No history yet...</li>
+
+</ul>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+<h2>
+
+AURA KAWAKI227
+
+</h2>
+
+<p>
+
+BY KAWAKI227
+
+</p>
+
+<div class="socials">
+
+<a href="#">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-discord"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-telegram"></i>
+</a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 KAWAKI227 SYSTEM
+
+ALL RIGHTS RESERVED
+
+</p>
+
+</footer>
+
+</div>
+
+<!-- BACKGROUND IMAGE -->
+<div class="background-image"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

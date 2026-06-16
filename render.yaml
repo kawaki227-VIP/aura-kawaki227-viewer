@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: aura-kawaki227-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
